@@ -90,4 +90,12 @@ CMakeCache.txt
 *.cmake
 *.json
 
+CMakeCXXComplierId.cpp
+CMakeCComplierId.c
+CMakeError.log
+CMakeOutput.log
+cmake.check_cache
+configurations.xml
+project.xml
+
 # End of https://www.gitignore.io/api/c,c++,netbeans
