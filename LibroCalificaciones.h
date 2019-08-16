@@ -20,9 +20,22 @@
 #include <string>
 
 class LibroCalificaciones {
-
+private:
+    static int ESTUDIANTES;
+    static int EXAMENES;
+    std::string nombreCurso;
+    int calificaciones[ESTUDIANTES][EXAMENES];
 public:
-
+    
+    LibroCalificaciones();
+    LibroCalificaciones(const std::string &nombreCurso, int[][]);
+    int obtenerNotaMinima();
+    int obtenerNotaMaxima();
+    double obtenerPromedio(const int[], const int);
+    std::string obtenerReporteNotas();
+    std::string obtenerReporteNotasMaxMin();
+    std::string getNombreCurso();
+    void setNombreCurso();
 };
 
 
