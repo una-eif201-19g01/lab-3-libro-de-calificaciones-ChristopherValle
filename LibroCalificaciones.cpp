@@ -12,9 +12,6 @@
 #include <iomanip>
 #include <iostream>
 
-static const int ESTUDIANTES = 10;
-static const int EXAMENES = 3;
-
 LibroCalificaciones::LibroCalificaciones() {
     for (int estudiante = 0; estudiante < ESTUDIANTES; estudiante++) {
 	for (int examen = 0; examen < EXAMENES; examen++) {
@@ -52,10 +49,10 @@ int LibroCalificaciones::obtenerNotaMaxima(){
     }
     return max;
 }
-double LibroCalificaciones::obtenerPromedio(const int[], const int est){
+double LibroCalificaciones::obtenerPromedio(int numero){
     int prom = 0;
     for (int examen = 0; examen < EXAMENES; examen++) {
-            prom += calificaciones[est][examen];
+            prom += calificaciones[numero][examen];
     }
     return prom / 3;
 }
@@ -67,7 +64,7 @@ std::string LibroCalificaciones::obtenerReporteNotas(){
 	for (int examen = 0; examen < EXAMENES; examen++) {
             reporte = reporte + std::to_string(calificaciones[estudiante][examen]) + "\t\t";
         }
-        reporte = reporte + std::to_string(obtenerPromedio([][estudiante]));
+        reporte = reporte + std::to_string(LibroCalificaciones::obtenerPromedio(estudiante));
     }
 return reporte;
 }

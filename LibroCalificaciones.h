@@ -24,7 +24,7 @@ private:
 
     int obtenerNotaMinima();
     int obtenerNotaMaxima();
-    double obtenerPromedio(const int[], const int);
+    double obtenerPromedio(int numero);
 
 public:
 

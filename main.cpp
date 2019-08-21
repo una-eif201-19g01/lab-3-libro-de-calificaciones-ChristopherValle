@@ -16,7 +16,7 @@
 int main() {
     static const int ESTUDIANTES = 10;
     static const int EXAMENES = 3;
-    int listaCalificaciones[ESTUDIANTES][EXAMENES] = ((80, 92, 75), (98, 88, 90), (94, 100, 90), (100, 70, 84), (85, 89, 100), (65, 72, 98), (100, 98, 90), (77, 67, 98), (59, 98, 78), (88, 79, 67));
+    int listaCalificaciones[ESTUDIANTES][EXAMENES] = {(80, 92, 75), (98, 88, 90), (94, 100, 90), (100, 70, 84), (85, 89, 100), (65, 72, 98), (100, 98, 90), (77, 67, 98), (59, 98, 78), (88, 79, 67)};
 
     LibroCalificaciones libroCalificaciones("Curso Programa I", listaCalificaciones);
 
