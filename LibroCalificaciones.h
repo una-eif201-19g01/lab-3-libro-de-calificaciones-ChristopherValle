@@ -1,14 +1,9 @@
 /*
  * =====================================================================================
  *
- *       Filename:  LibroCalificaciones.h
- *
- *    Description:  Reporte de calificaciones
- *
- *        Created:  2019-08-12
- *
- *         Author:  Maikol Guzman Alan mikeguzman@gmail.com
- *   Organization:  Universidad Nacional de Costa Rica
+ * Laboratorio 3 -Libro de Calificaciones-
+ * Christopher Valle
+ * Universidad Nacional de Costa Rica
  *
  * =====================================================================================
  */
